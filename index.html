@@ -26,26 +26,25 @@ title: Kumar Pallav
             <!--a href="kumarpallav_resume.pdf" class="icon" download><i class="fa fa-download" aria-hidden="true"></i></a-->
           </p>
         </div>
-
+        
         <div class="content">
           <span class="heading"><h3>Education</h3></span>
           {% for schoolData in site.data.edu %}
-            <div class="level">
+            <div class="level is-marginless">
               <p class="is-marginless">{{ schoolData.school }}<br/><span class="content is-marginless" style="font-size: 0.8rem">{{ schoolData.degree }}</span></p>
               <p style="text-align: right; font-size: 0.8rem">{{ schoolData.school_location }}<br/><span class="content is-marginless">{{ schoolData.time_period }}</span></p>
-              </div>
-                <ul style="margin-top: 0.2em; list-style-type: circle;">
-                {% for detail in schoolData.details %}
-                <li class="content is-marginless" style="font-size: 0.8rem">
+            </div>
+            <ul style="margin-top: 0.2em; list-style-type: circle;">
+              {% for detail in schoolData.details %}
+              <li class="content is-marginless" style="font-size: 0.8rem">
                 <span class="heading is-marginless">
                   {{ detail.title }}
                   <span style="margin-left:  5px; font-size: 10px; font-family:  monospace; color: #00d1b2;">{{ detail.languages }}</span>
                 </span>
                 {{ detail.description }}
-                </li>
+              </li>
               {% endfor %}
             </ul>
-            </div>
           {% endfor %}
         </div>
 
