@@ -15,7 +15,7 @@
     {
         "school": "Beijing Normal University",
         "school_location": "Beijing, China",
-        "degree": "B.S. System Science and Engineering",
+        "degree": "B.S. <a href="https://fas.bnu.edu.cn/jyjg/xsgk/xtkxx1/xsjsxtkx/index.htm">System Science and Engineering</a>",
         "time_period": "Sep 2020 – June 2024",
         "details": [
         	{
@@ -25,7 +25,7 @@
             },
         	{
                 "title": "Thesis",
-                "description": Convergence of Complex Dynamic Networks (Excellent Graduation Thesis, Advisor: <a href="https://www.researchgate.net/profile/Zengru-Di">Prof. Zengru DI</a>),
+                "description": {Convergence of Complex Dynamic Networks (Excellent Graduation Thesis, Advisor: <a href="https://www.researchgate.net/profile/Zengru-Di">Prof. Zengru DI</a>)},
                 "languages":""
             }
         ]
