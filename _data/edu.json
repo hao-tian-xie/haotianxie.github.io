@@ -16,7 +16,14 @@
         "school": "Beijing Normal University",
         "school_location": "Beijing, China",
         "degree": "B.S. System Science and Engineering",
-        "time_period": "Sep 2020 – June 2024"
+        "time_period": "Sep 2020 – June 2024",
+        "details": [
+        	{
+                "title": "Relevant course",
+                "description": "Mathmatics, Physics, Systems Engineering, Systems Optimization, Game Theory, Agent-based Modeling, Dynamic System analysis, Artificial Intelligence",
+                "languages":""
+            }
+        ]
     },
     {
         "school": "Beijing Normal University",
