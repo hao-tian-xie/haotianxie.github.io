@@ -1,8 +1,8 @@
 [
     {
-        "school": <a href="https://www.runoob.com/">The University of Hong Kong</a>,
+        "school": "The University of Hong Kong",
         "school_location": "Hong Kong, China",
-        "degree": "M.S. Industrial Engineering and Logistics Management",
+        "degree": M.S. (Eng) <a href="https://www.imse.hku.hk/msc-eng/msc-eng">Industrial Engineering and Logistics Management</a>,
         "time_period": "Sep 2024 - ",
         "details": [
         	{
@@ -21,6 +21,11 @@
         	{
                 "title": "Relevant course",
                 "description": "Mathmatics, Physics, Systems Engineering, Systems Optimization, Game Theory, Agent-based Modeling, Dynamic System analysis, Artificial Intelligence",
+                "languages":""
+            },
+        	{
+                "title": "Thesis",
+                "description": Convergence of Complex Dynamic Networks (Excellent Graduation Thesis, Advisor: <a href="https://www.researchgate.net/profile/Zengru-Di">Prof. Zengru DI</a>),
                 "languages":""
             }
         ]
