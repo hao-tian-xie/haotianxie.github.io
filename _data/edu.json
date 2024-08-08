@@ -1,8 +1,22 @@
 [
     {
-        "school": "Indian Institute of Technology, Bombay",
-        "school_location": "Mumbai, India",
-        "degree": "Bachelor of Computer Science and Engineering (with Hons.); CGPA 8.6/10",
-        "time_period": "Jun 2010 - May 2014"
+        "school": "The University of Hong Kong",
+        "school_location": "Hong Kong, China",
+        "degree": "M.S. Industrial Engineering and Logistics Management",
+        "time_period": "Sep 2024 - "
+    }
+
+    {
+        "school": "Beijing Normal University",
+        "school_location": "Beijing, China",
+        "degree": "B.S. System Science and Engineering",
+        "time_period": "Sep 2020 – June 2024"
+    }
+    
+    {
+        "school": "Beijing Normal University",
+        "school_location": "Beijing, China",
+        "degree": "B.Ec. Finance",
+        "time_period": "Sep 2020 – June 2024"
     }
 ]
