@@ -1,13 +1,10 @@
 [
     {
         "name": "Haotian Xie",
-        "website": "http://kumarpallav.com",
-        "email": "me@kumarpallav.com",
-        "email2": "pforpallav@gmail.com",
-        "phone": "+1-xxx-xxx-xxxx",
-        "linkedin":"https://www.linkedin.com/in/kumar-pallav-156a1657/",
-        "facebook":"https://www.facebook.com/pforpallav",
-        "github":"https://github.com/pforpallav",
+        "website": "https://hao-tian-xie.github.io/haotianxie.github.io/",
+        "email": "haotianxie@connect.hku.hk",
+        "email2": "haotianxie@mail.bnu.edu.cn",
+        "phone": "+852-4672-2170",
         "languages": [
             {
                 "language": "C++"
