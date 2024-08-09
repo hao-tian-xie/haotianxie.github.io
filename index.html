@@ -88,8 +88,11 @@ title: Haotian XIE
         <div class="content">
           <span class="heading"><h3>Publications</h3></span>
           {% for publications in site.data.pub %}
+            <div class="level is-marginless">
+              <p class="is-marginless">{{ publications.class }}</span></p>
+            </div>
             <ul style="margin-top: 0.2em; list-style-type: circle;">
-              {% for detail in experience.details %}
+              {% for detail in publications.details %}
               <li class="content is-marginless" style="font-size: 0.8rem">
                 <span class="heading is-marginless">
                   {{ detail.title }}
