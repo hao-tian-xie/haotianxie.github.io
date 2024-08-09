@@ -25,7 +25,7 @@
             },
         	{
                 "title": "Thesis",
-                "description": "Convergence of Complex Dynamic Networks (Excellent Graduation Thesis, Advisor: <a href='https://www.researchgate.net/profile/Zengru-Di'>Prof. Zengru DI</a>)",
+                "description": "Convergence of complex dynamic networks based on Vicsek model (Excellent Graduation Thesis, Advisor: <a href='https://www.researchgate.net/profile/Zengru-Di'>Prof. Zengru DI</a>)",
                 "languages":""
             }
         ]
@@ -34,6 +34,18 @@
         "school": "Beijing Normal University",
         "school_location": "Beijing, China",
         "degree": "B.Ec. Finance",
-        "time_period": "Sep 2020 – June 2024"
+        "time_period": "Sep 2020 – June 2024",
+        "details": [
+        	{
+                "title": "Relevant course",
+                "description": "Statistics, Micro- \& Macro-economics, Econometrics, Finance, Accounting",
+                "languages":""
+            },
+        	{
+                "title": "Thesis",
+                "description": "Credit risk of blockchain-driven supply chain finance enterprises based on MCDM (Excellent Graduation Thesis, Advisor: <a href='https://rsgyy.bnu.edu.cn/yjjg/gjswyglyjzx/swglrcdw/97310.html'>Prof. Lei CHEN</a>)",
+                "languages":""
+            }
+        ]
     }
 ]
