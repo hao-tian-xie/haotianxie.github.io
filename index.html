@@ -99,10 +99,31 @@ title: Haotian XIE
             </ul>
           {% endfor %}
         </div>
+
+        <div class="content">
+          <span class="heading"><h3>Research Experience</h3></span>
+          {% for experience in site.data.rexp %}
+            <div class="level is-marginless">
+              <p class="is-marginless">{{ experience.company }}<br/><span class="content is-marginless" style="font-size: 0.8rem">{{ experience.role }}, {{ experience.team }}</span></p>
+              <p style="text-align: right; font-size: 0.8rem">{{ experience.company_location }}<br/><span class="content is-marginless">{{ experience.time_duration }}</span></p>
+            </div>
+            <ul style="margin-top: 0.2em; list-style-type: circle;">
+              {% for detail in experience.details %}
+              <li class="content is-marginless" style="font-size: 0.8rem">
+                <span class="heading is-marginless">
+                  {{ detail.title }}
+                  <span style="margin-left:  5px; font-size: 10px; font-family:  monospace; color: #00d1b2;">{{ detail.languages }}</span>
+                </span>
+                {{ detail.description }}
+              </li>
+              {% endfor %}
+            </ul>
+          {% endfor %}
+        </div>
         
         <div class="content">
-          <span class="heading"><h3>Experience</h3></span>
-          {% for experience in site.data.exp %}
+          <span class="heading"><h3>Work Experience</h3></span>
+          {% for experience in site.data.wexp %}
             <div class="level is-marginless">
               <p class="is-marginless">{{ experience.company }}<br/><span class="content is-marginless" style="font-size: 0.8rem">{{ experience.role }}, {{ experience.team }}</span></p>
               <p style="text-align: right; font-size: 0.8rem">{{ experience.company_location }}<br/><span class="content is-marginless">{{ experience.time_duration }}</span></p>
