@@ -103,17 +103,10 @@ title: Haotian XIE
         <div class="content">
           <span class="heading"><h3>Research Experience</h3></span>
           {% for experience in site.data.rexp %}
-          <div class="level is-marginless" style="display: flex; justify-content: space-between; align-items: baseline;">
-            <p class="is-marginless" style="margin: 0;">
-              {{ experience.company }}<br/>
-              <span class="content" style="font-size: 0.8rem; margin: 0;">{{ experience.role }}, {{ experience.team }}</span>
-            </p>
-            <p style="text-align: right; font-size: 0.8rem; margin: 0;">
-              {{ experience.company_location }}<br/>
-              <span class="content" style="margin: 0;">{{ experience.time_duration }}</span>
-            </p>
-          </div>
-
+            <div class="level is-marginless">
+              <p class="is-marginless">{{ experience.company }}<br/><span class="content is-marginless" style="font-size: 0.8rem">{{ experience.role }}, {{ experience.team }}</span></p>
+              <p style="text-align: right; font-size: 0.8rem">{{ experience.company_location }}<br/><span class="content is-marginless">{{ experience.time_duration }}</span></p>
+            </div>
 
             <ul style="margin-top: 0.2em; list-style-type: circle;">
               {% for detail in experience.details %}
