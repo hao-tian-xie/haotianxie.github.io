@@ -1,74 +1,38 @@
 [
     {
-        "company": "Microsoft",
-        "company_location": "Redmond, WA",
-        "role": "Software Engineer",
-        "team": "OneNote",
-        "time_duration": "Jun 2016 - Present",
+        "company": "E-commerce Supply Chains Optimization Project",
+        "company_location": "Sep 2023 -- Mar 2024",
+        "role": "Position: Research Assistant (Advisor: Dr. <a href='https://www.polyu.edu.hk/ise/people/academic-staff/yungpo-tsang/'>Yung Po TSANG</a>)",
+        "team": "<a href='https://sss.bnu.edu.cn/en/index.htm'>Department of Industrial & Systems Engineering</a>, The Hong Kong Polytechnic University",
+        "time_duration": "",
         "details": [
         	{
-                "title": "Modern Hierarchy Sync",
-                "description": "Worked on a new sync platform which would load notebook structure and hierarchy faster than the current state of the art. Implemented client side representation of this hierarchy, derived from existing representation. Added functionality to be able use the new representation without the need of resetting cache or reloading the notebook. Built a small tool to visualize and debug this new representation.",
-                "languages":"C++ nodejs"
+                "description": "<div style=\"text-align: justify;\">Led research on DAO barriers in e-commerce supply chains, authored SCI papers and presented research results at international conferences.</div>",
             },
         	{
-                "title": "Notebook Cloud Migration",
-                "description": "Componentized native code from OneNote desktop app to convert local OneNote notebooks to cloud compatible notebooks. This was used in the new SharePoint Migration Tool.",
-                "languages": "C++ C\\#"
+                "description": "<div style=\"text-align: justify;\">Identified 12 key DAO implementation factors, integrated Bayesian theory and game theory to develop algorithms, and elucidated and visualised the intricate relationships and hierarchies of potential barriers.</div>",
             },
-            {
-                "title": "Magic Ink Lookup and Whiteboard App",
-                "description": "Worked on recognizing ink strokes into words (using onboard IA) and recognizing keywords/entities given the context (using custom entity recognition service). Implemented accumulation of images and interactive widgets (from various online sources) related to the keyword, to be inserted onto Whiteboard canvas. Implemented sharing experience for the new collaboration focused Whiteboard app which included creating and joining a shared session.",
-                "languages": "C++ C\\#"
-            },
-            {
-                "title": "Content Addins",
-                "description": "Implemented content addins, for OneNote desktop app, as small embedded web apps that would get hosted within managed WebView controls. Created their persistence model and rendering on the desktop app.",
-                "languages": "C++ nodejs"                
+        	{
+                "description": "<div style=\"text-align: justify;\">Coordinated a cross-functional team of four researchers, engaged in liaising and consultation with over ten researchers, and enhanced cooperation and coordination capabilities.</div>",
             }
         ]
     },
     {
-        "company": "Microsoft",
-        "company_location": "Vancouver, Canada",
-        "role": "Software Engineer",
-        "team": "OneNote",
-        "time_duration": "Nov 2014 - May 2016",
+        "company": "Process Identification and Optimization Project",
+        "company_location": "Jul 2023 -- Sep 2023",
+        "role": "Position: Process and Supply Chain Management Coordinator",
+        "team": "<a href='https://www.mnc-tek.com/En.php'> Mentech Optical & Magnetic Co.,Ltd (SZ.002902)</a>",
+        "time_duration": "",
         "details": [
-            {
-                "title": "Embedded Videos and Web Content",
-                "description": "Worked on adding ability on OneNote to host web content, making sure it is backwards compatible. Implemented features to make handling and editing web content on the OneNote page easier. Added support for this feature on OneNote web app.",
-                "languages": "C++ C\\#"
+        	{
+                "description": "<div style=\"text-align: justify;\">Leveraged complex networks analysis and predictive modelling techniques to pinpoint process optimization opportunities and formulate risk mitigation strategies.</div>",
             },
-            {
-                    "title": "Merged Cells for Tables",
-                    "description": "Added support for spanned cells for tables in OneNote, keeping in mind backwards compatibility. Implemented these capabilities in OneNote web app.",
-                    "languages": "C++ C\\#"
+        	{
+                "description": "<div style=\"text-align: justify;\">Forged collaborative relationships with cross-departmental teams to deploy process enhancements and execute targeted ``Project Velocity'' to curtail lead times for a specific product by 10\% and trim inventory expenses by 5\%.</div>",
             },
-            {
-                "title": "Realtime Ink",
-                "description": "As a ramp up project, prototyped ink collaboration using SignalR web-sockets. Worked on experimenting load and delay with multiple inputs in realtime.",
-               	"languages": "C++ C\\#"
+        	{
+                "description": "<div style=\"text-align: justify;\">Constructed intuitive data visualizations and dashboards to lucidly communicate supply chain metrics and trends to executive leadership.</div>",
             }
         ]
     },
-    {
-        "company": "Oracle",
-        "company_location": "Bangalore, India",
-        "role": "Software Engineering Intern",
-        "team": "Apps for Enterprises",
-        "time_duration": "May 2013 - July 2013",
-        "details": [
-            {
-                "title": "Containerization of iOS Apps",
-                "description": "Worked on sand-boxing of enterprise applications (containerization), enabling their installation on employee's iOS devices, without worrying about security concerns. Implemented wrapping of library function calls using swizzling, objective-c backend, linker flags and dynamic library injection.",
-                "languages": "Objective-C C"
-            },
-            {
-                "title": "Sandboxed Browser App",
-                "description": "Built a demo browser application for iOS. Containerized the app using the custom script, for it to work only for whitelisted urls.",
-                "languages": "Objective-C"
-            }
-        ]
-    }
 ]
