@@ -3,14 +3,10 @@
         "class": "Preprint Articles",
         "details": [
             {
-                "title": "Preprint articles",
-                "description": "<b> Xie, H. </b>, & Tsang, Y.*. An intelligent system to explore barriers of decentralized autonomous organizations in e-commerce supply chains. (Under review at <i> Engineering Applications of Artificial Intelligence </i>",
-                "languages": ""
+                "description": "<div style=\"text-align: justify;\"><b> Xie, H. </b>, & Tsang, Y.*. An intelligent system to explore barriers of decentralized autonomous organizations in e-commerce supply chains. (Under review at <i> Engineering Applications of Artificial Intelligence </i>)</div>"
             },
             {
-                "title": "Content Addins",
-                "description": "Implemented content addins, for OneNote desktop app, as small embedded web apps that would get hosted within managed WebView controls. Created their persistence model and rendering on the desktop app.",
-                "languages": "C++ nodejs"                
+                "description": "<div style=\"text-align: justify;\">Implemented content addins, for OneNote desktop app, as small embedded web apps that would get hosted within managed WebView controls. Created their persistence model and rendering on the desktop app.</div>"     
             }
         ]
     }
