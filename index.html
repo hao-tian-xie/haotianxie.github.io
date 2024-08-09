@@ -50,6 +50,23 @@ title: Haotian XIE
             </a>
           </p>
         </div>
+
+        <div class="content">
+          <span class="heading"><h3>Research Interests</h3></span>
+          {% for research in site.data.res %}
+            <ul style="margin-top: 0.2em; list-style-type: circle;">
+              {% for detail in research.details %}
+              <li class="content is-marginless" style="font-size: 0.8rem">
+                <span class="heading is-marginless">
+                  {{ detail.title }}
+                  <span style="margin-left:  5px; font-size: 10px; font-family:  monospace; color: #00d1b2;">{{ detail.languages }}</span>
+                </span>
+                {{ detail.description }}
+              </li>
+              {% endfor %}
+            </ul>
+          {% endfor %}
+        </div>
         
         <div class="content">
           <span class="heading"><h3>Education</h3></span>
