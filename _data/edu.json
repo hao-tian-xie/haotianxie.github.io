@@ -33,12 +33,12 @@
     {
         "school": "Beijing Normal University",
         "school_location": "Beijing, China",
-        "degree": "B.Ec. Finance",
+        "degree": "B.Ec. <a href='https://bibs.bnu.edu.cn/en/programs/undergraduate_cultivation/index.htm'>Finance</a>",
         "time_period": "Sep 2020 – June 2024",
         "details": [
         	{
                 "title": "Relevant course",
-                "description": "Statistics, Micro- \& Macro-economics, Econometrics, Finance, Accounting",
+                "description": "Statistics, Micro- & Macro-economics, Econometrics, Finance, Accounting",
                 "languages":""
             },
         	{
