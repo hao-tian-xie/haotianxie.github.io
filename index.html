@@ -76,7 +76,7 @@ title: Haotian XIE
               <li class="content is-marginless" style="font-size: 0.8rem">
                 <span class="heading is-marginless">
                   {{ detail.title }}
-                  <span style="margin-left:  5px; font-size: 10px; font-family:  monospace; color: #4169E1;">{{ detail.pdf }}</span>
+                  <span style="margin-left:  5px; font-size: 10px; font-family:  monospace; color: #4169E1;">{{ detail.languages }}</span>
                 </span>
                 {{ detail.description }}
               </li>
@@ -95,7 +95,7 @@ title: Haotian XIE
               {% for detail in publications.details %}
               <li class="content is-marginless" style="font-size: 0.8rem">
                 {{ detail.description }}
-                <span style="margin-left:  5px; font-size: 10px; font-family:  monospace; color: #00d1b2;">{{ detail.languages }}</span>
+                <span style="margin-left:  5px; font-size: 10px; font-family:  monospace; color: #00d1b2;">{{ detail.pdf }}</span>
               </li>
               {% endfor %}
             </ul>
