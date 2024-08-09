@@ -103,18 +103,20 @@ title: Haotian XIE
         <div class="content">
           <span class="heading"><h3>Research Experience</h3></span>
           {% for experience in site.data.rexp %}
-            <div class="level is-marginless" style="display: flex; justify-content: space-between; align-items: flex-end;">
-              <p class="is-marginless">{{ experience.company }}<br/>
-                <span class="content is-marginless" style="font-size: 0.8rem;">{{ experience.role }}, {{ experience.team }}</span>
-              </p>
-              <p style="text-align: right; font-size: 0.8rem;">{{ experience.company_location }}<br/>
-                <span class="content is-marginless">{{ experience.time_duration }}</span>
-              </p>
+            <div class="level is-marginless" style="display: flex; justify-content: space-between;">
+            <div style="display: flex; flex-direction: column; justify-content: flex-end;">
+              <p class="is-marginless" style="line-height: 1.2; margin: 0;">{{ experience.company }}</p>
+              <p class="is-marginless" style="font-size: 0.8rem; line-height: 1.2; margin: 0;">{{ experience.role }}, {{ experience.team }}</p>
             </div>
+            <div style="display: flex; flex-direction: column; justify-content: flex-end; align-items: flex-end;">
+              <p class="is-marginless" style="text-align: right; font-size: 0.8rem; line-height: 1.2; margin: 0;">{{ experience.company_location }}</p>
+              <p class="is-marginless" style="font-size: 0.8rem; line-height: 1.2; text-align: right; margin: 0;">{{ experience.time_duration }}</p>
+            </div>
+            </div>
+
             <ul style="margin-top: 0.2em; list-style-type: circle;">
               {% for detail in experience.details %}
               <li class="content is-marginless" style="font-size: 0.8rem">
-                <span class="heading is-marginless">
                 {{ detail.description }}
               </li>
               {% endfor %}
@@ -132,7 +134,6 @@ title: Haotian XIE
             <ul style="margin-top: 0.2em; list-style-type: circle;">
               {% for detail in experience.details %}
               <li class="content is-marginless" style="font-size: 0.8rem">
-                <span class="heading is-marginless">
                 {{ detail.description }}
               </li>
               {% endfor %}
