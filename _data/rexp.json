@@ -1,10 +1,10 @@
 [
     {
         "company": "Examining Drivers of Green Supply Chain Management",
-        "company_location": "Beijing, China",
-        "role": "Advisor: Prof. Zengru DI & Prof. Keqiang LI",
-        "team": "School of Systems Science, BNU",
-        "time_duration": "Sep 2022 - May 2023",
+        "company_location": "Sep 2022 - May 2023",
+        "role": "Advisor: Prof. <a href='https://sss.bnu.edu.cn/en/Faculty/Professor/1fb42055bc1e42ca8e13c27e378e2d82.htm'>Zengru DI</a> & Prof. <a href='https://sss.bnu.edu.cn/en/Faculty/Professor/dadaf7516f1a4837ac896d281adf05b5.htm'>Keqiang LI</a>",
+        "team": "<a href='https://sss.bnu.edu.cn/en/index.htm'>School of Systems Science</a>, BNU",
+        "time_duration": "",
         "details": [
         	{
                 "description": "Conducted mixed methods research encompassing literature analysis, qualitative interviews, and mathematical modeling to identify key determinants driving adoption of green supply chains in the electronics industry.",
@@ -18,45 +18,20 @@
         ]
     },
     {
-        "company": "Microsoft",
-        "company_location": "Vancouver, Canada",
-        "role": "Software Engineer",
-        "team": "OneNote",
-        "time_duration": "Nov 2014 - May 2016",
+        "company": "A Multi-Criteria Evaluation of Airline Service Quality",
+        "company_location": "Oct 2021 - Jul 2022",
+        "role": "Advisor: Prof. <a href='https://sss.bnu.edu.cn/en/Faculty/Professor/dadaf7516f1a4837ac896d281adf05b5.htm'>Keqiang LI</a>",
+        "team": "<a href='https://sss.bnu.edu.cn/en/index.htm'>School of Systems Science</a>, BNU",
+        "time_duration": "",
         "details": [
-            {
-                "title": "Embedded Videos and Web Content",
-                "description": "Worked on adding ability on OneNote to host web content, making sure it is backwards compatible. Implemented features to make handling and editing web content on the OneNote page easier. Added support for this feature on OneNote web app.",
-                "languages": "C++ C\\#"
+        	{
+                "description": "Designed an integrated benchmarking model utilizing MCDM methods to systematically assess and rank airline service performance.",
             },
-            {
-                    "title": "Merged Cells for Tables",
-                    "description": "Added support for spanned cells for tables in OneNote, keeping in mind backwards compatibility. Implemented these capabilities in OneNote web app.",
-                    "languages": "C++ C\\#"
+        	{
+                "description": "Compiled an dataset elucidating multifaceted service attributes and consumer predilections by scrutinizing survey responses from over 500 patrons, manuscripts, and journalistic expositions.",
             },
-            {
-                "title": "Realtime Ink",
-                "description": "As a ramp up project, prototyped ink collaboration using SignalR web-sockets. Worked on experimenting load and delay with multiple inputs in realtime.",
-               	"languages": "C++ C\\#"
-            }
-        ]
-    },
-    {
-        "company": "Oracle",
-        "company_location": "Bangalore, India",
-        "role": "Software Engineering Intern",
-        "team": "Apps for Enterprises",
-        "time_duration": "May 2013 - July 2013",
-        "details": [
-            {
-                "title": "Containerization of iOS Apps",
-                "description": "Worked on sand-boxing of enterprise applications (containerization), enabling their installation on employee's iOS devices, without worrying about security concerns. Implemented wrapping of library function calls using swizzling, objective-c backend, linker flags and dynamic library injection.",
-                "languages": "Objective-C C"
-            },
-            {
-                "title": "Sandboxed Browser App",
-                "description": "Built a demo browser application for iOS. Containerized the app using the custom script, for it to work only for whitelisted urls.",
-                "languages": "Objective-C"
+        	{
+                "description": "Performed multivariate analysis, operations research, decision modeling, and insightful interpretation of results.",
             }
         ]
     }
