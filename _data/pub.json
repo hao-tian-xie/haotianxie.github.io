@@ -3,10 +3,10 @@
         "class": "Preprint Articles",
         "details": [
             {
-                "description": "<div style=\"text-align: justify;\"><b> Xie, H. </b>, & Tsang, Y.*. An intelligent system to explore barriers of decentralized autonomous organizations in e-commerce supply chains. (Under review at <i> Engineering Applications of Artificial Intelligence </i>) <a href='kumarpallav_resume.pdf'> PDF</a></div>"
+                "description": "<div style=\"text-align: justify;\"><b> Xie, H. </b>, & Tsang, Y.*. An intelligent system to explore barriers of decentralized autonomous organizations in e-commerce supply chains. (Under review at <i> Engineering Applications of Artificial Intelligence </i>) </div>"
             },
             {
-                "description": "<div style=\"text-align: justify;\"><b> Xie, H. </b>, Liu, H., & Tang, Y.*. Identifying extreme precipitation using nonequilibrium thermodynamics. (Under review at <i> Communications Physics </i>) <a href='kumarpallav_resume.pdf'> PDF</a></div>"
+                "description": "<div style=\"text-align: justify;\"><b> Xie, H. </b>, Liu, H., & Tang, Y.*. Identifying extreme precipitation using nonequilibrium thermodynamics. (Under review at <i> Communications Physics </i>) </div>"
             }
         ]
 
@@ -15,11 +15,14 @@
         "class": "Peer-reviewed Journal Articles",
         "details": [
             {
-                "description": "<div style=\"text-align: justify;\"><b> Xie, H. </b>, & Tsang, Y.*. An intelligent system to explore barriers of decentralized autonomous organizations in e-commerce supply chains. (Under review at <i> Engineering Applications of Artificial Intelligence </i>)</div>"
+                "description": "<div style=\"text-align: justify;\"><b> Xie, H.* </b>, Li, Y., Pu, Y., Zhang, C., & Huang, J. (2024). Evaluating airline service quality through a comprehensive text-mining and multi-criteria decision-making analysis. <i> Journal of Air Transport Management</i>, <i>120</i>, 102655. (IF=4.5, JCR Q1, <a href='kumarpallav_resume.pdf'> PDF</a>)</div>"   
             },
             {
-                "description": "<div style=\"text-align: justify;\"><b> Xie, H.* </b>, Li, Y., Pu, Y., Zhang, C., & Huang, J. (2024). Evaluating airline service quality through a comprehensive text-mining and multi-criteria decision-making analysis, <i> Journal of Air Transport Management</i>, <i>120</i>, 102655. (IF=4.5, JCR Q1)</div>"   
-            }
+                "description": "<div style=\"text-align: justify;\">Li, Y., Tan, Y., Pu, Y., Zhu, Y., & <b> Xie, H.* </b> (2023). Exploring the drivers of green supply chain management in the Chinese electronics industry: Evidence from a GDEMATEL–AISM approach. <i> Cleaner Logistics and Supply Chain</i>, <i>7</i>, 100110. (IF=6.9, JCR Q1, <a href='kumarpallav_resume.pdf'> PDF</a>)</div>"   
+            },
+            {
+                "description": "<div style=\"text-align: justify;\">{Yang, K., Liu, T., Wang, Z., ..., <b>Xie, H.</b>, ..., Zhang, K.* (2021). Classifying Drosophila olfactory projection neuron boutons by quantitative analysis of electron microscopic reconstruction. <i>iScience</i>, <i>25</i>. 104180. (IF=5.0, JCR Q1, <a href='kumarpallav_resume.pdf'> PDF</a>)</div>"   
+            },
         ]
     }
 ]
