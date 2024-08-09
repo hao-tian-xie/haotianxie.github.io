@@ -11,19 +11,6 @@ title: Haotian XIE
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.1/css/bulma.min.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     
-    <a href="https://scholar.google.com/citations?user=yourGoogleScholarID" class="icon" target="_blank">
-    <i class="fa fa-graduation-cap" aria-hidden="true"></i> <!-- 谷歌学术图标 -->
-    </a>
-
-    <a href="https://www.scopus.com/authid/detail.uri?authorId=yourScopusID" class="icon" target="_blank">
-    <i class="fa fa-database" aria-hidden="true"></i> <!-- Scopus 图标 -->
-    </a>
-
-    <a href="https://orcid.org/yourORCID" class="icon" target="_blank">
-    <i class="fa fa-id-badge" aria-hidden="true"></i> <!-- ORCID 图标 -->
-    </a>
-    
-    
     <!--link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" /-->
 
     <title>{{ personalData.name }}</title>
@@ -46,12 +33,20 @@ title: Haotian XIE
         <div class="level content is-marginless">
           <p class="title is-2">{{ personalData.name }}</p>
           <p class="subtitle is-5">
-            <a href="mailto:{{ personalData.email }}" class="icon">
-            <i class="fa fa-envelope-square" aria-hidden="true"></i>
+            <a href="mailto:{{ personalData.email }}" class="icon" style="display: block;" title="Send Email to me">
+            <i class="fa fa-envelope-square" aria-hidden="true"></i> Email
             </a>
             
-            <a href="https://scholar.google.com/citations?user=yourGoogleScholarID" class="icon" target="_blank">
-            <i class="fa fa-graduation-cap" aria-hidden="true"></i> <!-- 谷歌学术图标 -->
+            <a href="https://scholar.google.com/citations?user=yourGoogleScholarID" class="icon" target="_blank" style="display: block;" title="View my Google Scholar profile">
+            <i class="fa fa-graduation-cap" aria-hidden="true"></i> Google Scholar <!-- 谷歌学术图标 -->
+            </a>
+
+            <a href="https://www.scopus.com/authid/detail.uri?authorId=yourScopusID" class="icon" target="_blank" style="display: block;" title="View my Scopus profile">
+            <i class="fa fa-database" aria-hidden="true"></i> Scopus <!-- Scopus 图标 -->
+            </a>
+      
+            <a href="https://orcid.org/yourORCID" class="icon" target="_blank" style="display: block;" title="View my ORCID profile">
+            <i class="fa fa-id-badge" aria-hidden="true"></i> ORCID <!-- ORCID 图标 -->
             </a>
             
             <!--a href="kumarpallav_resume.pdf" class="icon" download><i class="fa fa-download" aria-hidden="true"></i></a-->
