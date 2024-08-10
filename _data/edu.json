@@ -1,6 +1,6 @@
 [
     {
-        "school": "The University of Hong Kong",
+        "school": "The University of Hong Kong (HKU)",
         "school_location": "Hong Kong, China",
         "degree": "M.S. (Eng) <a href='https://www.imse.hku.hk/msc-eng/msc-eng'>Industrial Engineering and Logistics Management</a>",
         "time_period": "Sep 2024 - ",
@@ -13,7 +13,7 @@
         ]
     },
     {
-        "school": "Beijing Normal University",
+        "school": "Beijing Normal University (BNU)",
         "school_location": "Beijing, China",
         "degree": "B.S. <a href='https://fas.bnu.edu.cn/jyjg/xsgk/xtkxx1/xsjsxtkx/index.htm'>System Science and Engineering</a>",
         "time_period": "Sep 2020 – June 2024",
@@ -31,7 +31,7 @@
         ]
     },
     {
-        "school": "Beijing Normal University",
+        "school": "Beijing Normal University (BNU)",
         "school_location": "Beijing, China",
         "degree": "B.Ec. <a href='https://bibs.bnu.edu.cn/en/programs/undergraduate_cultivation/index.htm'>Finance</a>",
         "time_period": "Sep 2020 – June 2024",
