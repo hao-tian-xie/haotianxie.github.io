@@ -138,17 +138,18 @@ title: Haotian XIE
 
         <div class="content">
           <span class="heading"><h3>Presentations</h3></span>
-          {% for presentations in site.data.pre %}
+            {% for presentations in site.data.pre %}
             <ul style="margin-top: 0.2em; list-style-type: circle;">
               {% for detail in presentations.details %}
-              <p class="content is-marginless" style="font-size: 0.8rem">
-                {{ detail.description }}
-                <span style="float: right; font-size: 0.8rem;">{{ presentations.time }}</span>
-              </p>
+                <li class="content is-marginless" style="font-size: 0.8rem">
+                   {{ detail.description }}
+                   <span style="float: right; font-size: 0.8rem;">{{ detail.time }}</span>
+                </li>
               {% endfor %}
             </ul>
           {% endfor %}
         </div>
+
         
         <div class="content">
           <span class="heading"><h3>Projects</h3></span>
