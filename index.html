@@ -164,6 +164,19 @@ title: Haotian XIE
             </p>
         </div>
 
+        <div class="content">
+          <span class="heading"><h3>Presentations</h3></span>
+          {% for presentations in site.data.pre %}
+            <ul style="margin-top: 0.2em; list-style-type: circle;">
+              {% for detail in presentations.details %}
+              <li class="content is-marginless" style="font-size: 0.8rem">
+                {{ detail.description }}
+              </li>
+              {% endfor %}
+            </ul>
+          {% endfor %}
+        </div>
+        
         <footer class="footer" style="background: inherit;">
           <div class="content has-text-centered">
             <p>
