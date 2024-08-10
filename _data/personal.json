@@ -7,30 +7,18 @@
         "phone": "+852-4672-2170",
         "languages": [
             {
-                "language": "C++"
+                "language": "Chinese (native),"
             },
             {
-                "language": "C\\#"
+                "language": "Cantonese (native),"
             },
             {
-                "language": "JavaScript"
-            },
-            {
-                "language": "Java"
-            },
-            {
-                "language": "C"
+                "language": "English (C1)"
             }
         ],
         "technologies": [
             {
-                "technology": "NodeJs"
-            },
-            {
-                "technology": "UWP"
-            },
-            {
-                "technology": "Win32"
+                "technology": "Data analysis in MATLAB & Python, and Word process in LaTeX & Microsoft Office"
             }
         ]
     }
