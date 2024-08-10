@@ -185,9 +185,9 @@ title: Haotian XIE
           <span class="heading"><h3>References</h3></span>
           {% for references in site.data.ref %}
             <div class="level is-marginless">
-              <span class="content is-marginless" style="font-size: 0.8rem">{{ references.name }}</span></p>
+              <p class="heading is-marginless">{{ references.name }}</p>
             </div>
-              <ul style="margin-top: 0.2em; list-style-type: circle;">
+            <ul style="margin-top: 0.2em; list-style-type: circle;">
               {% for detail in references.details %}
               <li class="content is-marginless" style="font-size: 0.8rem">
                 {{ detail.description }}
