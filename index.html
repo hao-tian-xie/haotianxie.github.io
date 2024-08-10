@@ -180,6 +180,22 @@ title: Haotian XIE
               {% endfor %}
             </p>
         </div>
+
+        <div class="content">
+          <span class="heading"><h3>References</h3></span>
+          {% for references in site.data.ref %}
+            <div class="level is-marginless">
+              <span class="content is-marginless" style="font-size: 0.8rem">{{ references.name }}</span></p>
+            </div>
+          
+              {% for detail in references.details %}
+              <li class="content is-marginless" style="font-size: 0.8rem">
+                {{ detail.description }}
+              </li>
+              {% endfor %}
+            </ul>
+          {% endfor %}
+        </div>
         
         <footer class="footer" style="background: inherit;">
           <div class="content has-text-centered">
