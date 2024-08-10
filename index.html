@@ -137,6 +137,20 @@ title: Haotian XIE
         </div>
 
         <div class="content">
+          <span class="heading"><h3>Presentations</h3></span>
+          {% for presentations in site.data.pre %}
+            <ul style="margin-top: 0.2em; list-style-type: circle;">
+              {% for detail in presentations.details %}
+              <li class="content is-marginless" style="font-size: 0.8rem">
+                {{ detail.description }}
+                <p style="text-align: right; font-size: 0.8rem">{{ experience.time }}
+              </li>
+              {% endfor %}
+            </ul>
+          {% endfor %}
+        </div>
+        
+        <div class="content">
           <span class="heading"><h3>Projects</h3></span>
           {% for project in site.data.proj %}
             <p class="heading is-marginless">
@@ -162,19 +176,6 @@ title: Haotian XIE
                 {{technology.technology}}
               {% endfor %}
             </p>
-        </div>
-
-        <div class="content">
-          <span class="heading"><h3>Presentations</h3></span>
-          {% for presentations in site.data.pre %}
-            <ul style="margin-top: 0.2em; list-style-type: circle;">
-              {% for detail in presentations.details %}
-              <li class="content is-marginless" style="font-size: 0.8rem">
-                {{ detail.description }}
-              </li>
-              {% endfor %}
-            </ul>
-          {% endfor %}
         </div>
         
         <footer class="footer" style="background: inherit;">
