@@ -1,5 +1,23 @@
 [
     {
+        "company": "Identifying extreme precipitation using nonequilibrium thermodynamics",
+        "company_location": "Sep 2021 - May 2024",
+        "role": "Advisor: Prof. <a href='https://jamestang23.github.io/'>Ying TANG</a>",
+        "team": "<a href='https://sss.bnu.edu.cn/en/index.htm'>School of Systems Science</a>, BNU",
+        "time_duration": "",
+        "details": [
+        	{
+                "description": "<div style=\"text-align: justify;\">Developed and applied an integrated framework using the Landau distribution and large deviation theory, resulting in improved modeling of extreme precipitation events across global locations. This approach yielded a 10% to 20% increase in accuracy compared to conventional distributions.</div>",
+            },
+        	{
+                "description": "<div style=\"text-align: justify;\">Applied large deviation theory to compute return times for extreme events and forecast future precipitation scenarios, enabling predictions of events up to 5-10 times beyond average precipitation levels with 95% confidence.</div>",
+            },
+        	{
+                "description": "<div style=\"text-align: justify;\">Strengthened proficiency in advanced statistical methods and data analysis, developing skills in applying complex mathematical models to real-world environmental challenges and improving my ability to synthesize interdisciplinary approaches for solving critical problems.</div>",
+            }
+        ]
+    },
+    {
         "company": "Examining Drivers of Green Supply Chain Management",
         "company_location": "Sep 2022 - May 2023",
         "role": "Advisor: Prof. <a href='https://sss.bnu.edu.cn/en/Faculty/Professor/1fb42055bc1e42ca8e13c27e378e2d82.htm'>Zengru DI</a> & Prof. <a href='https://sss.bnu.edu.cn/en/Faculty/Professor/dadaf7516f1a4837ac896d281adf05b5.htm'>Keqiang LI</a>",
