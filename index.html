@@ -150,20 +150,21 @@ title: Haotian XIE
           {% endfor %}
         </div>
 
-        
         <div class="content">
-          <span class="heading"><h3>Projects</h3></span>
-          {% for project in site.data.proj %}
-            <p class="heading is-marginless">
-              {{ project.title }}
-              <span style="margin-left:  5px; font-size: 10px; font-family:  monospace; color: #00d1b2;">{{ project.languages }}</span>
-            </p>
-            <p style="font-size: 0.8rem">{{ project.description }}</p>
+          <span class="heading"><h3>Award</h3></span>
+          {% for award in site.data.award %}
+            <ul style="margin-top: 0.2em; list-style-type: circle;">
+              {% for detail in award.details %}
+              <li class="content is-marginless" style="font-size: 0.8rem">
+                {{ detail.description }}
+              </li>
+              {% endfor %}
+            </ul>
           {% endfor %}
         </div>
 
         <div class="content">
-          <span class="heading"><h3>Skills</h3></span>
+          <span class="heading"><h3>Competences</h3></span>
             <p class="heading is-marginless">Languages</p>
             <p style="font-size: 0.8rem">
             {% for language in personalData.languages %}
@@ -171,7 +172,7 @@ title: Haotian XIE
             {% endfor %}
             </p>
 
-            <p class="heading is-marginless">Technologies</p>
+            <p class="heading is-marginless">Techniques</p>
             <p style="font-size: 0.8rem">
             {% for technology in personalData.technologies %}
                 {{technology.technology}}
